@@ -1,7 +1,7 @@
 
   // Selecting the container for the employee cards 
  const employeeContainer = document.getElementById("employeeContainer");
-// Task 2- Adding  Employee cards dynamically 
+// Task 2- Adding  Employee cards dynamically  ( Declaring function)
 function addEmployee (name,position) {
   const card = document.createElement ("div") ; 
   card.className= "employee-card" ;  
@@ -113,7 +113,7 @@ function highlightEmployees() {
         card.classList.add("highlight"); //  Highlighting class 
      });
      }
-
-     // Test Case : 
+// Test Case : 
 addEmployee("Cindy Lu ", "Marketing Intern ");
 addEmployee("Snoopy joe ", "Marketing Manager");
+  
