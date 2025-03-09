@@ -8,14 +8,14 @@
         /* Page background */
         body {
             font-family: Arial, sans-serif;
-            background-color: cherry blossom rgba(255, 190 , 217); 
+            background-color: rgb(255, 190, 217); /* Soft pink */
             margin: 20px;
             padding: 20px;
         }
 
         /* Employee card styling */
         .employee-card {
-            background-color:  #deebcc(144, 245, 198)  ; 
+            background-color: rgb(144, 245, 198); /* Soft green */
             border: 2px solid black;
             padding: 10px;
             margin: 10px;
@@ -25,7 +25,7 @@
 
         /* Remove Button Styling */
         .remove-btn {
-            background-color: #b3d7c1; /* Red */
+            background-color: #b3d7c1; /* Soft green */
             color: white;
             border: none;
             padding: 5px 10px;
@@ -35,12 +35,21 @@
 
         /* Edit Button Styling */
         .edit-btn {
-            background-color: #79a284; /* Yellow */
+            background-color: #f4c542; /* Yellow */
             color: black;
             border: none;
             padding: 5px 10px;
             cursor: pointer;
             border-radius: 3px;
+        }
+
+        /* Employee container is visible */
+        #employeeContainer {
+            background-color: white;
+            border: 2px solid black;
+            padding: 20px;
+            margin-top: 20px;
+            min-height: 100px;
         }
     </style>
 </head>
@@ -49,11 +58,12 @@
     <h1>Employee Management Dashboard</h1>
 
     <div id="employeeContainer">
-        <!-- Employee cards need to be  added here -->
+        <p>Test Case : Employee Container is visible</p>
     </div>
 
     <script src="cc_13.js"></script>
 
 </body>
 </html>
+
 
